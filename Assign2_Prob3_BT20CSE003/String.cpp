@@ -89,7 +89,7 @@ int operator != (const String &s, const String &t)
 	}
 }
 
-char String::operator[](int i)
+char & String::operator[](int i)
 {
 	return value[i];
 }

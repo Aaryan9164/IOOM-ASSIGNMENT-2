@@ -21,7 +21,7 @@ class String
 	friend int operator <= (const String &s, const String &t);
 	friend int operator== (const String &s, const String &t);
 	friend int operator != (const String &s, const String &t);
-	char operator[] (int i); //(Unary)
+	char & operator[] (int i); //(Unary)
 	
 	friend void display(const String&);
 	
