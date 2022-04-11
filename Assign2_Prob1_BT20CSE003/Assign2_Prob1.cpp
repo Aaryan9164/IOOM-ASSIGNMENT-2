@@ -34,7 +34,7 @@ int main()
 
 	try
 	{
-		if(c2.get_real()==0 or c2.get_imag()==0)
+		if(c2.get_imag()==0)
 		{
 			throw "Can't do division as the denominator is 0!";
 		}
